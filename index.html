@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Aterrizaje de producto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="pageWrapper">
+        <header id="header">
+            <div class="logo">
+                <img src="https://img.icons8.com/office/80/000000/workers-female.png" alt="logo de la empresa" id="header-img">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#video" class="nav-link">Video</a></li>
+                    <li><a href="#prices" class="nav-link">Precios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="container-form">
+            <h2>Bienvenido a la construcción de su hogar, deje un mail para contactarnos.</h2>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input name="email" type="email" id="email" placeholder="Ingrese su email aquí" required>
+                <input type="submit" id="submit" value="Envíar" class="botonEnviar">
+                </form>
+        </section>
+        <div id="cointainerMain">
+            <section id="services">
+                <div class="boxService">
+                    <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <div class="text">
+                        <h2>Atención profesional</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, ratione.</p>
+                    </div>
+                </div>
+                <div class="boxService">
+                    <div class="icon"><i class="fa-solid fa-truck"></i></div>
+                    <div class="text">
+                        <h2>Envíos</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, voluptates.</p>
+                    </div>
+                </div>
+                <div class="boxService">
+                    <div class="icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <div class="text">
+                        <h2>facilidad de pago</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, adipisci!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="ourWork">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/tUlgVBxbsww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="prices">
+                <div class="prodcut" id="cement">
+                    <div class="procement">Cemento negro</div>
+                    <h2>$700</h2>
+                    <ol>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ol>
+                    <button class="selectButton">Comprar!</button>
+                </div>
+                <div class="prodcut" id="stones">
+                    <div class="prostones">Piedras</div>
+                    <h2>$2000</h2>
+                    <ol>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ol>
+                    <button class="selectButton">Comprar!</button>
+                </div>
+                <div class="prodcut" id="sand">
+                    <div class="prosand">Arena</div>
+                    <h2>$1500</h2>
+                    <ol>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ol>
+                    <button class="selectButton">Comprar!</button>
+                </div>
+            </section>
+        </div>
+        <footer class="footerStyles" id="footer">
+            <ol>
+                <li><a href="#">Politica</a></li>
+                <li><a href="#"></a>Terminos</li>
+                <li><a href="#"></a>Instagram</li>
+            </ol>
+            <span>Copyright 2022, w4rfi</span>
+        </footer>
+    </div>
+</body>
+</html>
