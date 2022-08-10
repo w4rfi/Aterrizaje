@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "moment": "^2.29.4",
-    "scss-tokenizer": "^0.4.2"
+    "scss-tokenizer": "^0.4.3"
   }
 }
