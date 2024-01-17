@@ -15,7 +15,7 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
-    "moment": "^2.29.4",
+    "moment": "^2.30.1",
     "scss-tokenizer": "^0.4.2"
   }
 }
